@@ -63,8 +63,8 @@ html_signature = f"""
               </tr>
               {ps_html}
               <tr>
-                <td style=\"text-align: center; padding: 16px 0;\">
-                  <img src=\"https://www.correlation-one.com/hubfs/Group%202%20(1).png\" alt=\"Color bar\" style=\"max-width: 55%; height: auto; display: inline-block; margin-right:-258px\">
+                <td style=\"text-align: right; padding: 16px 0;\">
+                  <img src=\"https://www.correlation-one.com/hubfs/Group%202%20(1).png\" alt=\"Color bar\" style=\"max-width: 55%; border-radius:8px; height: auto; display: inline-block; margin-right:-258px\">
                 </td>
               </tr>
               <tr>
