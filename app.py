@@ -10,6 +10,8 @@ first_name = st.sidebar.text_input("First Name", "Jorge")
 last_name = st.sidebar.text_input("Last Name", "Caballero")
 position = st.sidebar.text_input("Position", "Web Developer")
 meeting_link = st.sidebar.text_input("Meeting Link (optional)", "https://correlation-one.com/meetings/jorge-esteban-caballero")
+cta_text = st.sidebar.text_input("CTA Text", "Let's chat")
+cta_followup = st.sidebar.text_input("CTA Follow-up Text", "if you’re curious about data literacy upskilling for company.")
 
 # Conditionally include PS block
 ps_html = f"""
@@ -18,7 +20,7 @@ ps_html = f"""
     <table width=\"100%\" style=\"background-color: #ffffff; border-radius: 8px;\">
       <tr>
         <td style=\"padding: 8px 8px; font-size: 13px; color: #575c64; font-family: Arial, sans-serif;\">
-          P.S. <a href=\"{meeting_link}\" style=\"color: #0066cc; font-weight: 600; text-decoration: none;\">Let's chat</a> if you’re curious about data literacy upskilling for company.
+          P.S. <a href=\"{meeting_link}\" style=\"color: #0066cc; font-weight: 600; text-decoration: none;\">{cta_text}</a> {cta_followup}
         </td>
       </tr>
     </table>
@@ -118,4 +120,3 @@ with st.expander("📩 How to add this signature to Gmail"):
 8. Optionally, set it as your default signature for new emails and replies.
 9. Scroll down and click **“Save Changes.”**
     """)
-
