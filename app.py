@@ -73,7 +73,7 @@ html_signature = f"""
                     <tr>
                       <td style=\"padding: 0px;\" align=\"left\">
                         <a href=\"https://www.correlation-one.com/\" target=\"_blank\">
-                          <img src=\"https://www.correlation-one.com/hubfs/C1%20Logo%20Dark%201.png\" width=\"130\" alt=\"Correlation One\" style=\"display: block;\">
+                          <img src=\"https://www.correlation-one.com/hubfs/C1%20Logo%20Dark%201.png\" width=\"150\" alt=\"Correlation One\" style=\"display: block;\">
                         </a>
                       </td>
                       <td style=\"padding: 0px;\" align=\"right\">
